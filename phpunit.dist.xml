@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- see http://www.phpunit.de/wiki/Documentation -->
+<phpunit bootstrap="vendor/autoload.php"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         stopOnFailure="false">
+
+    <php>
+        <env name="APP_URL" value="http://127.0.0.1:9501"/>
+    </php>
+
+    <testsuites>
+        <testsuite name="Swoole Student App">
+            <directory>tests/</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
