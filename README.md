@@ -2,6 +2,18 @@
 
 This is a quick example of a PHP app using [OpenSwoole][1] which provides a simple to navigate API
 
+## Install with Composer
+
+```shell
+$ get clone git@github.com:nasumilu/student-app.git
+$ cd student-app
+$ composer install
+$ php server.php
+Student App http server is started at http://127.0.0.1:9501
+```
+
+Then point a browser to http://127.0.01:9501/students
+
 ## Endpoints
 
 | Path                         | Arguments | Description                                                         |

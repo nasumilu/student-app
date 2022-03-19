@@ -33,7 +33,7 @@ ini_set('xdebug.default_enable', 0);
 $server = new Swoole\HTTP\Server('127.0.0.1', 9501);
 
 $server->on("start", function (Server $server) {
-    echo "Student http server is started at http://127.0.0.1:9501\n";
+    echo "Student App http server is started at http://127.0.0.1:9501\n";
 });
 
 $server->on("request", function (Request $request, Response $response) {
